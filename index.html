@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Política de Privacidad</title>
+  <style>
+    :root{
+      --bg:#0f172a;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--accent:#06b6d4;--ok:#10b981;--warn:#f59e0b;
+    }
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Noto Sans",sans-serif;line-height:1.6}
+    main{max-width:960px;margin:0 auto;padding:40px 20px}
+    h1,h2,h3{line-height:1.25}
+    h1{font-size:2rem;margin:.5rem 0 1rem}
+    h2{font-size:1.25rem;margin:2rem 0 .5rem}
+    h3{font-size:1rem;margin:1.2rem 0 .4rem;color:var(--muted)}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,.02),rgba(255,255,255,.0));border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:20px;margin:16px 0}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    ul{padding-left:1.2rem}
+    .muted{color:var(--muted)}
+    .badge{display:inline-block;border:1px solid rgba(255,255,255,.12);border-radius:999px;padding:.2rem .6rem;margin:.1rem .3rem 0 0;font-size:.8rem}
+    code{background:#0b1022;border:1px solid rgba(255,255,255,.08);padding:.2rem .4rem;border-radius:6px}
+    footer{margin-top:36px;font-size:.9rem;color:var(--muted)}
+  </style>
+</head>
+<body>
+<main>
+  <h1>Política de Privacidad</h1>
+  <p class="muted"><strong>Última actualización:</strong> 25 de agosto de 2025</p>
+
+  <div class="card">
+    <h2>1) Información general</h2>
+    <p>
+      Esta aplicación móvil <strong>Logistify autenticación</strong> es una herramienta de autenticación y validación de paquetes destinada exclusivamente a trabajadores y personas afiliadas a la empresa Logistify. Aquí explicamos qué datos se recopilan, para qué se usan y qué opciones tienes como usuario.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>2) Qué datos recabamos</h2>
+    <p>La App utiliza datos que previamente son registrados por los administradores en el portal web de la empresa. Los operadores acceden con las credenciales que se les asignan. Podemos manejar los siguientes datos:</p>
+    <ul>
+      <li><strong>Datos de perfil creados por la empresa:</strong> nombre completo, número de teléfono, correo electrónico (si aplica), rol/perfil dentro de la App, y nombre de usuario asignado.</li>
+      <li><strong>Credenciales de acceso:</strong> usuario y contraseña para ingresar a la App.</li>
+      <li><strong>Permisos del dispositivo:</strong>
+        <ul>
+          <li><em>Cámara</em> – para escanear códigos QR de paquetes y capturar fotos de evidencia.</li>
+          <li><em>Video</em> – para funciones de escaneo si el sistema operativo lo requiere.</li>
+          <li><em>Almacenamiento</em> – para guardar temporalmente evidencia antes de enviarla.</li>
+          <li><em>GPS/Ubicación</em> – para validar la ubicación de las entregas.</li>
+          <li><em>Notificaciones</em> – para recibir avisos operativos.</li>
+          <li><em>Huella dactilar/biometría</em> – autenticación local administrada por el dispositivo. <span class="badge">La App no conserva datos biométricos</span>.</li>
+        </ul>
+      </li>
+      <li><strong>Datos de operación:</strong> información de paquetes entregados o incidentados, incluyendo fecha, hora, ubicación, escaneo QR y, en algunos casos, fotografía de evidencia.</li>
+    </ul>
+    <p>La App no accede a SMS ni micrófono, ni comercializa con tus datos.</p>
+  </div>
+
+  <div class="card">
+    <h2>3) Finalidades del uso de datos</h2>
+    <ul>
+      <li><strong>Primarias:</strong> autenticar a los operadores, validar entregas, registrar incidencias, asociar evidencia fotográfica y ubicación a los paquetes, y mostrar historial de entregas.</li>
+      <li><strong>Secundarias:</strong> generar métricas técnicas de uso y estabilidad para mejorar el funcionamiento de la App.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>4) Conservación</h2>
+    <p>Los datos se mantienen mientras la cuenta del operador esté activa y por el tiempo necesario para fines operativos internos.</p>
+  </div>
+
+  <div class="card">
+    <h2>5) Seguridad</h2>
+    <p>La App aplica cifrado en tránsito (HTTPS) y controles de acceso. No obstante, ningún sistema es 100% infalible. Se busca siempre la protección adecuada de la información.</p>
+  </div>
+
+  <div class="card">
+    <h2>6) Menores de edad</h2>
+    <p>La App está dirigida únicamente a personal operativo y personas afiliadas a la empresa Logistify. No está pensada para menores de 18 años ni se recopilan datos de éstos.</p>
+  </div>
+
+  <div class="card">
+    <h2>7) Cambios a esta política</h2>
+    <p>Podemos actualizar esta política para reflejar ajustes operativos o técnicos. Publicaremos la nueva versión en esta misma URL con la fecha de actualización.</p>
+  </div>
+
+
+
+  <footer>
+    <p>© <span id="y"></span> <strong>Logistify Autenticación</strong>. Todos los derechos reservados.</p>
+    <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+  </footer>
+
+</main>
+</body>
+</html>
